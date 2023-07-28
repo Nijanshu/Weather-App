@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body class="vh-100" id="cold" >
+   <header id="sec">
+      <hi id="h1">WeatherSite</hi>
+   </header>
+   <section id="content">
+      <span class="dt" id="date">Date: <span id="dat"></span></span>
+      <span class="dt" id="time">Time: <Timespan id="clock"></Timespan> </span>
+   </section>
+   <section id="s2">
+      <p>
+      City: <input id="city"> <button id="btn" onclick="tm()">Submit</button>
+      <div id="cy">City</div>
+      <div id="ltd">Latitude: <span id="lat">   </span>&nbsp;&nbsp; Longtitude: <span id='lon'></span></div>
+      <div id="tz">TimeZone: <span id="TZ"></span></div>
+   <div id="tmpr"> Temperature: <span id="ttp"> </span></div>
+   <div> AQI: <span id="aqi"> </span></div>
+      </p>
+</section>
+<script src="weather.js"></script>
+</body>
+</html>
+   

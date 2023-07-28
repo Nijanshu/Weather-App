@@ -1,0 +1,81 @@
+body{
+    /* position: sticky; */
+    top:0px;
+    z-index: 3;
+}
+#cloudy{
+    background: url('https://cdn.shopify.com/s/files/1/0262/9985/9007/files/grey_skies.png?v=1680625039');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+#sunny{
+    background: url('https://cdn.wallpapersafari.com/72/23/95A6Gz.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+#windy{
+    background: url('https://dnmkr7tf85gze.cloudfront.net/CACHE/images/media/image/hurricane_winds/606bb70afbd5e92cf0df6368889e0ffa.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+#cold{
+    background: url('https://images.unsplash.com/photo-1612208695882-02f2322b7fee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sZCUyMHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+   /* height: 1000px; */
+}
+
+#sec{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background: linear-gradient(rgba(213, 190, 190, 0.6),rgba(154, 154, 198, 0.573),rgba(126, 141, 126, 0.616));
+    width: 100vw;
+    text-align: center;
+    font-size: 30px;
+}
+#content{
+    background: linear-gradient(rgba(71, 71, 101, 0.515),rgba(230, 170, 170, 0.373));
+    /* display: grid; */
+    width: 100vw;
+    top:34px;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+
+justify-content: center;    /* grid-template-columns: 700px, 200px; */
+}
+
+.dt{
+    width: 50vw;
+    text-align: center;
+    /* grid-template-columns: 700px, 200px; */
+
+}
+#s2{
+    /* align-content: center; */
+    /* margin:40px 0px 40px 0px; */
+    left: 0px;
+    width: 100vw;
+    position:absolute;
+    top: 60px;
+    background-color: rgba(127, 255, 212, 0.699);
+}
+#cy{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(26, 42, 113);
+}
